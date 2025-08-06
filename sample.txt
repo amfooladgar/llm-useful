@@ -1,0 +1,2 @@
+Hello world! This is a test.
+Hello again. ByteLevel BPE works well.
