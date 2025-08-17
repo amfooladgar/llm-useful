@@ -1,0 +1,7 @@
+model_a,model_b,winner
+GPT-4,Claude,GPT-4
+GPT-4,LLaMA,LLaMA
+Claude,GPT-3.5,Claude
+Claude,GPT-4,tie
+LLaMA,GPT-3.5,GPT-3.5
+GPT-4,GPT-3.5,GPT-4
