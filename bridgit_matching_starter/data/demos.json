@@ -1,0 +1,95 @@
+[
+  {
+    "A": {
+      "goals": [
+        "professional_networking"
+      ],
+      "interests": [
+        "data",
+        "startups"
+      ],
+      "availability": "today_evening",
+      "style": "prefer_to_be_approached"
+    },
+    "B": {
+      "goals": [
+        "professional_networking",
+        "mentorship"
+      ],
+      "interests": [
+        "ml",
+        "startups"
+      ],
+      "availability": "today_evening",
+      "style": "likes_to_initiate"
+    },
+    "CONTEXT": {
+      "place": "[VENUE:Cowork Cafe]",
+      "city": "[CITY]",
+      "event": "[EVENT:Tech Mixer]",
+      "time": "18:30"
+    },
+    "OUTPUT": {
+      "score": 0.78,
+      "factors": [
+        "Overlapping 'startups'",
+        "Same time window",
+        "Mentorship complement"
+      ],
+      "risks": [
+        "A prefers to be approached; suggest gentle opener"
+      ],
+      "suggestions": [
+        {
+          "for": "initiator",
+          "text": "I’m also into ML + startups—open to chatting about projects over the next 10 minutes?"
+        },
+        {
+          "for": "recipient",
+          "text": "If you’re up for it, I’d love a quick intro—happy to share what I’m building."
+        }
+      ]
+    }
+  },
+  {
+    "A": {
+      "goals": [],
+      "interests": [],
+      "availability": "unknown",
+      "style": "unknown"
+    },
+    "B": {
+      "goals": [
+        "friendship"
+      ],
+      "interests": [
+        "outdoors"
+      ],
+      "availability": "weekend",
+      "style": "unknown"
+    },
+    "CONTEXT": {
+      "place": "[VENUE:Library]",
+      "city": "[CITY]",
+      "event": "none",
+      "time": "14:00"
+    },
+    "OUTPUT": {
+      "score": 0.0,
+      "factors": [],
+      "risks": [
+        "insufficient_data"
+      ],
+      "suggestions": [
+        {
+          "for": "initiator",
+          "text": "If you’re open to meeting new people, would you like to exchange a quick hello? No worries if not."
+        },
+        {
+          "for": "recipient",
+          "text": "You can ignore or decline—your comfort comes first."
+        }
+      ]
+    }
+  }
+]
