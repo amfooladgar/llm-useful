@@ -4,7 +4,7 @@ from pathlib import Path
 from matchlib.scoring import load_profiles, top_k_for_all
 
 ROOT = Path(__file__).resolve().parent
-DATA_DEFAULT = ROOT / "data" / "profiles.tsv"
+DATA_DEFAULT = ROOT / "data" / "sampleData_Bridgit.tsv"
 DATA_FALLBACK = ROOT / "data" / "sample_profiles.tsv"
 OUT = ROOT / "out" / "match_results.json"
 
