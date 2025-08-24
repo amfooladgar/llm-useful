@@ -1,0 +1,71 @@
+[
+  {
+    "id": "demo_prof_event_optin",
+    "situation": "professional_event short_time",
+    "query_features": [
+      "professional networking",
+      "collaboration",
+      "short time"
+    ],
+    "suggestion": {
+      "for": "initiator",
+      "text": "Hey! I\u2019m exploring real\u2011time networking tools for builders. Up for a 3\u2011minute swap on what you\u2019re building and what you wish existed?"
+    },
+    "response": {
+      "for": "recipient",
+      "text": "Sure\u2014quick intro: I\u2019m focused on iOS + Firebase. Curious what problems you\u2019re seeing with in\u2011person intros."
+    },
+    "factors": [
+      "opt\u2011in opener",
+      "time\u2011bounded",
+      "context\u2011aware"
+    ],
+    "risks": [
+      "assumes comfort with quick chat\u2014be ready to gracefully exit if not"
+    ]
+  },
+  {
+    "id": "demo_coffee_shop_soft",
+    "situation": "coffee_shop ambient_noise",
+    "query_features": [
+      "soft approach",
+      "ambient noise",
+      "casual"
+    ],
+    "suggestion": {
+      "for": "initiator",
+      "text": "Hi\u2014random question: are you also here for the study group meetup? If not, no worries. I\u2019m testing an app for easy in\u2011person intros."
+    },
+    "response": {
+      "for": "recipient",
+      "text": "Not the study group, but happy to say hi. What\u2019s the idea behind the app?"
+    },
+    "factors": [
+      "soft opt\u2011in",
+      "gives an easy out"
+    ],
+    "risks": [
+      "may be mistaken identity\u2014keep it light and optional"
+    ]
+  },
+  {
+    "id": "demo_refusal_insufficient",
+    "situation": "insufficient_data",
+    "query_features": [],
+    "suggestion": {
+      "for": "initiator",
+      "text": "Not enough context to suggest an opener. Consider adding goals, interests, and venue type."
+    },
+    "response": {
+      "for": "recipient",
+      "text": "N/A"
+    },
+    "factors": [
+      "safety",
+      "insufficient_data"
+    ],
+    "risks": [
+      "insufficient_data"
+    ]
+  }
+]
