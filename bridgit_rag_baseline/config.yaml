@@ -1,0 +1,6 @@
+# Simple config for the baseline
+chunk_size: 800          # characters per chunk
+chunk_overlap: 120       # characters overlap
+top_k_docs: 4
+top_k_demos: 2
+mmr_lambda: 0.7          # 1.0=more relevance, 0.0=more diversity

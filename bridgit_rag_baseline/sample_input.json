@@ -1,0 +1,42 @@
+{
+  "initiator_profile": {
+    "goals": [
+      "professional networking",
+      "find collaborators"
+    ],
+    "interests": [
+      "cloud",
+      "MLOps",
+      "SwiftUI apps"
+    ],
+    "tone": "friendly, concise",
+    "prefers_to_initiate": true
+  },
+  "recipient_profile": {
+    "goals": [
+      "learn about startups",
+      "expand network"
+    ],
+    "interests": [
+      "iOS",
+      "Firebase",
+      "product design"
+    ],
+    "tone": "open, thoughtful",
+    "prefers_to_be_approached": true
+  },
+  "context": {
+    "location_type": "professional_event",
+    "venue": "NYC tech meetup",
+    "noise_level": "moderate",
+    "time_pressure_minutes": 5,
+    "local_norms": [
+      "opt_in_openers",
+      "respect_personal_space"
+    ],
+    "do_not_mention": [
+      "salary",
+      "politics"
+    ]
+  }
+}
