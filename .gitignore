@@ -215,5 +215,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# PDF Documents
+# PDF Documents and excel
 *.pdf
+*.xlsx
