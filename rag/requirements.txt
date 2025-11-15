@@ -4,3 +4,10 @@ langchain-community
 pypdf
 pymupdf
 ipykernel
+unstructured 
+openpyxl
+networkx
+pandas
+msoffcrypto-tool
+psycopg2-binary
+python-dotenv
