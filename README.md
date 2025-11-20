@@ -248,7 +248,7 @@ llm-useful/
 ## 📫 Contact
 
 **Ali Fouladgar**  
-[GitHub](https://github.com/amfooladgar) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/amfooladgar) | [LinkedIn](https://www.linkedin.com/in/ali-fouladgar/)
 
 *This repository represents ongoing research and experimentation with LLM technologies. Projects are continuously updated with new learnings and best practices.*
 
