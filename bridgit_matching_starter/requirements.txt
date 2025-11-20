@@ -1,7 +1,0 @@
-# requirements.txt for Bridgit Matching Starter
-# Python 3.9+ only; the starter uses standard library modules only.
-# No external packages are required to run `src/main.py` with the MockLLM.
-
-# OPTIONAL: Uncomment one of the following if you swap in a real provider.
-# openai==1.46.0            # OpenAI Chat Completions client
-# boto3==1.34.162           # AWS Bedrock (Claude) runtime client
